@@ -3,7 +3,7 @@ package secure_banking_Transaction_Engine;
 public abstract class BankAccount {
 	private int AccountNumber;
 	private String AccountHolderName;
-	private double Balance;
+	private double Balance;    
 	private int pin;
 	
 	public BankAccount(int Accno, String Accname, double b, int p) throws InvalidAmountException
